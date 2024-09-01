@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario M. Mezquida M. | Portafolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mario M. Mezquida M.</h1>
+            <p style="text-align: center; color: #ccc;">Desarrollador | Colombia</p>
+            <img src="{{ url_for('static', filename='images/avatar.jpg') }}" alt="Avatar" class="avatar">
+            <p style="text-align: center;"><a href="{{ url_for('static', filename='cv.pdf') }}" download>Descargar CV</a></p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Sobre mí -->
+        <div class="section">
+            <h2>Sobre mí</h2>
+            <p>Soy un desarrollador con 2 años de experiencia, apasionado por crear soluciones innovadoras y funcionales.</p>
+        </div>
+
+        <!-- Tecnologías -->
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Java</li>
+                <li>Kotlin</li>
+                <li>Flutter</li>
+                <li>React</li>
+                <li>HTML5</li>
+            </ul>
+        </div>
+
+        <!-- Experiencia -->
+        <div class="section">
+            <h2>Experiencia</h2>
+            <div class="experience">
+                <div>
+                    <p><strong>Desarrollador de Aplicaciones Móviles</strong></p>
+                    <p>Desarrollador | 2022 - 2024</p>
+                    <p>Desarrollando para el manejo integral de la prestación de servicios de las empresas de ambulancias.</p>
+                </div>
+                <div>
+                    <p><strong>Desarrollador de Aplicaciones Móviles</strong></p>
+                    <p>Desarrollador | 2022 - 2024</p>
+                    <p>Desarrollando para el manejo integral de la prestación de servicios de las empresas de ambulancias.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyectos -->
+        <div class="section">
+            <h2>Proyectos</h2>
+            <div class="projects">
+                <div>
+                    <p><strong>Software random</strong></p>
+                    <p>Software propiedad de Metacortex</p>
+                    <p>Herramienta para hacer rico a otras personas.</p>
+                    <p>Tecnologías: Python, Django</p>
+                    <img src="{{ url_for('static', filename='images/project_1.jpg') }}" alt="Proyecto 1">
+                    <p><a href="https://github.com/thomasanderson" target="_blank">Ver en GitHub</a></p>
+                </div>
+                <div>
+                    <p><strong>Hackeo Matrix</strong></p>
+                    <p>Mi obra maestra</p>
+                    <p>Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.</p>
+                    <p>Tecnologías: Binario</p>
+                    <img src="{{ url_for('static', filename='images/project_2.jpg') }}" alt="Proyecto 2">
+                    <p><a href="https://github.com/thomasanderson" target="_blank">Ver en GitHub</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formación -->
+        <div class="section">
+            <h2>Formación</h2>
+            <div class="education">
+                <div>
+                    <p><strong>Ingeniería de Sistemas</strong></p>
+                    <p>UNIVERSIDAD COOPERATIVA SEDE MONTERÍA, MONTERÍA, CÓRDOBA | 2021</p>
+                    <p><a href="https://en.wikipedia.org/wiki/Neo_(The_Matrix)" target="_blank">Ver Certificado</a></p>
+                </div>
+                <div>
+                    <p><strong>Seguridad Informática</strong></p>
+                    <p>UNIVERSIDAD PONTIFICIA BOLIVARIANA, BUCARAMANGA, SANTANDER | Actualmente</p>
+                    <p><a href="https://en.wikipedia.org/wiki/Neo_(The_Matrix)" target="_blank">Ver Certificado</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Extras -->
+        <div class="section">
+            <h2>Extras</h2>
+            <div class="extras">
+                <div>
+                    <img src="{{ url_for('static', filename='images/extra_1.jpg') }}" alt="The Matrix">
+                    <p><strong>The Matrix</strong></p>
+                    <p>Aparecí en esta película.</p>
+                    <p><a href="https://en.wikipedia.org/wiki/The_Matrix" target="_blank">Ver más</a></p>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='images/extra_2.jpg') }}" alt="The Matrix Reloaded">
+                    <p><strong>The Matrix Reloaded</strong></p>
+                    <p>Y en esta otra.</p>
+                    <p><a href="https://en.wikipedia.org/wiki/The_Matrix_Reloaded" target="_blank">Ver más</a></p>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='images/extra_3.jpg') }}" alt="The Matrix Revolutions">
+                    <p><strong>The Matrix Revolutions</strong></p>
+                    <p>Y en esta más.</p>
+                    <p><a href="https://en.wikipedia.org/wiki/The_Matrix_Revolutions" target="_blank">Ver más</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contacta conmigo en <a href="mailto:marmariomiguel@hotmail.com">marmariomiguel@hotmail.com</a></p>
+        <p>&copy; 2024 Mario M. Mezquida M. | Todos los derechos reservados.</p>
+        
+    </footer>
+</body>
+</html>
