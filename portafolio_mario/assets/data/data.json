@@ -1,0 +1,129 @@
+{
+    "title": "Mario M. Mezquida M. | Portafolio",
+    "description": "Me destaco por mi creatividad e innovación, mi capacidad para adaptarme rápidamente y mi dedicación al aprendizaje constante.",
+    "image": "/avatar.jpg",
+    "avatar": "/avatar.jpg",
+    "name": "Mario M. Mezquida M.",
+    "skill": "Desarrollador",
+    "location": "Colombia",
+    "media": {
+        "email": "marmariomiguel@hotmail.com",
+        "cv": "/data/cv.pdf",
+        "github": "https://github.com/MarioMezquidaM",
+        "likedin": "https://www.linkedin.com/in/mario-mezquida"
+    },
+    "about": "Soy un desarrollador con 2 años de experiencia, apasionado por crear soluciones innovadoras y funcionales.",
+    "technologies": [
+        {
+            "icon": "devicon-devicon-plain",
+            "name": "Java"
+        },
+        {
+            "icon": "devicon-devicon-plain",
+            "name": "Kotlin"
+        },
+        {
+            "icon": "devicon-devicon-plain",
+            "name": "Flutter"
+        },
+        {
+            "icon": "devicon-c-plain",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-python-plain",
+            "name": "HTML5"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "devicon-java-plain-wordmark",
+            "title": "Desarrollador de Aplicaciones Móviles",
+            "subtitle": "Desarrollador",
+            "description": "Desarrollando para el manejo integral de la prestación de servicios de las empresas de ambulancias.",
+            "date": "2022 - 2024"
+        },
+        {
+            "icon": "devicon-java-plain-wordmark",
+            "title": "Desarrollador de Aplicaciones Móviles",
+            "subtitle": "Desarrollador",
+            "description": "Desarrollando para el manejo integral de la prestación de servicios de las empresas de ambulancias.",
+            "date": "2022 - 2024"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "bar-chart-4",
+            "title": "Software random",
+            "subtitle": "Software propiedad de Metacortex",
+            "description": "Herramienta para hacer rico a otras personas.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-django-plain",
+                    "name": "Django"
+                }
+            ],
+            "image": "/project_1.jpg",
+            "url": "https://matrix.fandom.com/wiki/MetaCortex",
+            "github": "https://github.com/thomasanderson"
+        },
+        {
+            "icon": "bug-off",
+            "title": "Hackeo Matrix",
+            "subtitle": "Mi obra maestra",
+            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
+            "technologies": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Binario"
+                }
+            ],
+            "image": "/project_2.jpg",
+            "url": "https://matrix.fandom.com/wiki/Wiki",
+            "github": "https://github.com/thomasanderson"
+        }
+    ],    
+    "training": [
+        {
+            "icon": "graduation-cap",
+            "title": "Ingeniería de Sistemas",
+            "subtitle": "UNIVERSIDAD COOPERATIVA SEDE MONTERÍA, MONTERÍA, CÓRDOBA",
+            "description": "2021",
+            "date": "Indeterminado",
+            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "Seguridad Informática",
+            "subtitle": "UNIVERSIDAD PONTIFICIA BOLIVARIANA, BUCARAMANGA, SANTANDER",
+            "description": "Actualmente",
+            "date": "Indeterminado",
+            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+        }
+    ],
+    "extras": [
+        {
+            "image": "/extra_1.jpg",
+            "title": "The Matrix",
+            "description": "Aparecí en esta película.",
+            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+        },
+        {
+            "image": "/extra_2.jpg",
+            "title": "The Matrix Reloaded",
+            "description": "Y en esta otra.",
+            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
+        },
+        {
+            "image": "/extra_3.jpg",
+            "title": "The Matrix Revolutions",
+            "description": "Y en esta más.",
+            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+        }
+    ]
+    
+}
